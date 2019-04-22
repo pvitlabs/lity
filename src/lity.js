@@ -158,7 +158,7 @@
             iframeUrl = transferHash(hashUrl, iframeUrl);
         }
 
-        return '<div class="lity-iframe-container"><iframe frameborder="0" allowfullscreen src="' + iframeUrl + '"/></div>';
+        return '<div class="lity-iframe-container"><iframe frameborder="0" allow="autoplay" allowfullscreen src="' + iframeUrl + '"/></div>';
     }
 
     function error(msg) {
